@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="fgecctv.com.animation"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MaterialAnimations">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="fgecctv.com.dengqichen.TransitionActivity" android:theme="@style/MaterialAnimations.Red"/>
+        <activity android:name="fgecctv.com.dengqichen.Transition2Activity" android:theme="@style/MaterialAnimations.Red"/>
+        <activity android:name="fgecctv.com.dengqichen.Transition3Activity" android:theme="@style/MaterialAnimations.Red"/>
+        <activity android:name="fgecctv.com.dengqichen.Transition4Activity" android:theme="@style/MaterialAnimations.Red"/>
+        <activity android:name="fgecctv.com.dengqichen.Transition5Activity" android:theme="@style/MaterialAnimations.Red"/>
+        <activity android:name="fgecctv.com.dengqichen.Transition6Activity" android:theme="@style/MaterialAnimations.Red"/>
+        <activity android:name="fgecctv.com.dengqichen.Transition7Activity" android:theme="@style/MaterialAnimations.Red"/>
+    </application>
+
+</manifest>
